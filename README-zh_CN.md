@@ -8,7 +8,7 @@
 
 ## 功能
 
-- 加载 OpenTool JSON 文件，并转换为 Dart 对象。 见 [OpenDyn规范](opendyn-specification-cn).
+- 加载 OpenTool JSON 文件，并转换为 Dart 对象。 见 [OpenDyn规范](opendyn-specification-cn.md).
 
 ## 用法
 

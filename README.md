@@ -8,7 +8,7 @@ Inspired by OpenAPI, OpenRPC, and OpenAI `function calling` example.
 
 ## Features
 
-- Load OpenDyn json file, and convert to dart object. See [OpenDyn Specification](opendyn-specification-en).
+- Load OpenDyn json file, and convert to dart object. See [OpenDyn Specification](opendyn-specification-en.md).
 
 ## Usage
 
