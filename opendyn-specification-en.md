@@ -15,7 +15,7 @@ The OpenDyn specification is referenced the the [OpenTool](https://github.com/Li
 OpenModbus is aimed at describing programmatic invocations for the Dynamic Library and is designed to be used in conjunction with [OpenDynDriver](https://github.com/LiteVar/opentool_dart/blob/main/lib/src/driver/dyn/opendyn_driver.dart). This allows users to describe functions that can drive specific tools to execute function calls.
 
 Similar to OpenTool, this can be conveniently used for:
-1. Large language models' `Function Calling`, driving specific tools to complete function calls based on descriptions;
+1. Large language model `Function Calling`, driving specific tools to complete function calls based on descriptions;
 2. Workflow description calls, which, when combined with `OpenWorkflow` descriptions, can batch-drive tools to complete function calls.
    - This is useful for scenarios where large language models generate `OpenWorkflow` text to achieve time-sequenced tool function invocation. It is suitable for situations where functions need to be called in a fixed order.
 
@@ -59,13 +59,13 @@ Similar to OpenTool, this can be conveniently used for:
 | isIn        | `boolean`     | **Required**. Whether the parameter is an input parameter. If not, it is an output pointer parameter. Default is `true`. |
 | required    | `boolean`     | **Required**. Whether the parameter is required. Default is `true`.                                                      |
 
-### Return对象
+### Return Object
 
-| Field       | Type     | Description                                                                      |
-|-------------|----------|----------------------------------------------------------------------------------|
-| name        | `string` | **Required**. The name of the return value.                                      |
-| description | `string` | A description of the `return` value for human readers and large language models. |
-| schema      | Schema对象 | **Required**. The format of the return value.                                    |
+| Field       | Type          | Description                                                                      |
+|-------------|---------------|----------------------------------------------------------------------------------|
+| name        | `string`      | **Required**. The name of the return value.                                      |
+| description | `string`      | A description of the `return` value for human readers and large language models. |
+| schema      | Schema Object | **Required**. The format of the return value.                                    |
 
 ### Schema Object
 
